@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<!--    아이디 입력-->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextUsername"
+        android:hint="아이디를 입력하세요"
+        android:inputType="text"
+        android:layout_margin="16dp"/>
+<!--    패스워드 입력-->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextPassword"
+        android:hint="패스워드를 입력하세요"
+        android:inputType="textPassword"
+        android:layout_marginBottom="16dp"/>
+<!--    전화번호 입력-->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="전화번호를 입력하세요"
+        android:inputType="phone"
+        android:id="@+id/editTextPhoneNumber"
+        android:layout_marginBottom="16dp"/>
+<!--    회원가입 버튼-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonSignup"
+        android:text="회원가입"
+        android:onClick="onSignupButtonClick"/>
+<!--    회원정보 출력 텍스트 뷰-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewUserInfo"
+        android:text=""
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
