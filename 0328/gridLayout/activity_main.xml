@@ -1,0 +1,44 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="24dp"
+    android:columnCount="2">
+
+    <ImageView
+        android:layout_columnSpan="2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/img_company"
+        android:layout_gravity="center"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView android:text="아이디"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="아이디"/>
+
+    <TextView android:text="패스워드"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="패스워드"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="로그인"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="회원가입"/>
+
+    <TextView
+        android:layout_columnSpan="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="입력한 내용이 여기에 표시됩니다."
+        android:background="#EEEEEE"
+        android:padding="12dp"/>
+</GridLayout>
