@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/game2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Counter Strike Online은 좀비와 인간이 서로 대결하는 FPS 게임이다"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_marginTop="22dp"/>
+
+</LinearLayout>
