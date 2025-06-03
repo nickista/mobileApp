@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000">
+
+    <!-- 눈 내리는 뷰 -->
+    <com.example.snowapp.SnowfallView
+        android:id="@+id/snowfall_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- 컨트롤 패널 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="#222222">
+
+        <!-- 눈 개수 조절 -->
+        <TextView
+            android:id="@+id/snow_count_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="눈 개수: 50"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+        <SeekBar
+            android:id="@+id/snow_count_seekbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp" />
+
+        <!-- 눈 크기 조절 -->
+        <TextView
+            android:id="@+id/snow_size_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="눈 크기: 5"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+        <SeekBar
+            android:id="@+id/snow_size_seekbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>
